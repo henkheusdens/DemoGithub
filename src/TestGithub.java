@@ -4,10 +4,12 @@ public class TestGithub {
         System.out.println("Test met Github");
     }
     public static void doStuff(){
-        System.out.println("method doStuff called by method featureZ ");
+        System.out.println("method doStuff called by methods featureY and featureZ ");
     }
-    private static void featureZ() {
+  private static void featureY() {
         doStuff();
     }
-
+        private static void featureZ() {
+   doStuff();
+    }
 }
