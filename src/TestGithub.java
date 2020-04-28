@@ -4,7 +4,7 @@ public class TestGithub {
         System.out.println("Test met Github");
     }
     public static void doStuff(){
-        System.out.println("Do methode doStuff. ");
+        System.out.println("method doStuff called by method featureZ ");
     }
     private static void featureZ() {
         doStuff();
