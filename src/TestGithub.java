@@ -6,5 +6,8 @@ public class TestGithub {
     public static void doStuff(){
         System.out.println("Do methode doStuff. ");
     }
+    private static void featureZ() {
+        doStuff();
+    }
 
 }
